@@ -64,6 +64,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Index.html */
 /* Header Styles */
 
 .logo {
@@ -246,7 +247,7 @@ body {
   color: var(--desc-font-color);
 }
 
-/* Page active */
+/* Current page */
 
 .current {
   color: var(--logo-font-color);
