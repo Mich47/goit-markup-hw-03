@@ -13,11 +13,11 @@
   --btn-background-color: var(--logo-font-color);
   --btn-background-hover: #188ce8;
   --background-section-color: #f5f4fa;
-  --address-link-color: rgba(255, 255, 255, 0.6);
+  --address-link-color: rgb(255 255 255 / 0.6);
 
   --border-color: 1px solid #eee;
-  --box-shadow-color: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  --box-shadow-color: 0px 3px 1px rgb(0 0 0 / 0.1), 0px 1px 2px rgb(0 0 0 / 0.08),
+    0px 2px 2px rgb(0 0 0 / 0.12);
 }
 
 /* Global Styles */
@@ -59,6 +59,7 @@ body {
 .title {
   font-weight: 700;
   font-size: 36px;
+
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -101,28 +102,31 @@ body {
 /* Hero Styles */
 
 .hero {
-  background-color: var(--footer-background-color);
   color: var(--main-light);
+  background-color: var(--footer-background-color);
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   width: 696px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 30px;
 }
 
 .hero-btn {
+  padding: 10px 32px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.06em;
-  padding: 10px 32px;
+
   color: var(--main-light);
   background-color: var(--btn-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -160,8 +164,8 @@ body {
 }
 
 .command-item {
-  background-color: var(--main-light);
   width: 270px;
+  background-color: var(--main-light);
 }
 
 .command-member,
@@ -214,11 +218,11 @@ body {
 }
 
 .filter-btn {
+  padding: 6px 22px;
+
   font-size: 16px;
   line-height: 1.62;
-
   letter-spacing: 0.03em;
-  padding: 6px 22px;
 
   background-color: var(--background-section-color);
   border-radius: 4px;
@@ -247,7 +251,7 @@ body {
   color: var(--desc-font-color);
 }
 
-/* Current page */
+/* Current Page */
 
 .current {
   color: var(--logo-font-color);
