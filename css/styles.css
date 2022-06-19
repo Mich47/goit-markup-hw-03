@@ -16,8 +16,9 @@
   --address-link-color: rgb(255 255 255 / 0.6);
 
   --border-color: 1px solid #eee;
-  --box-shadow-color: 0px 3px 1px rgb(0 0 0 / 0.1), 0px 1px 2px rgb(0 0 0 / 0.08),
+  --filter-btn-box-shadow: 0px 3px 1px rgb(0 0 0 / 0.1), 0px 1px 2px rgb(0 0 0 / 0.08),
     0px 2px 2px rgb(0 0 0 / 0.12);
+  --hero-btn-box-shadow: 0px 4px 4px rgb(0 0 0 / 0.15);
 }
 
 /* Global Styles */
@@ -136,7 +137,7 @@ body {
 
   color: var(--main-light);
   background-color: var(--btn-background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--hero-btn-box-shadow);
   border-radius: 4px;
   border: 0;
 }
@@ -240,7 +241,7 @@ body {
 .filter-btn:focus {
   color: var(--main-light);
   background-color: var(--btn-background-color);
-  box-shadow: var(--box-shadow-color);
+  box-shadow: var(--filter-btn-box-shadow);
   border-radius: 4px;
   cursor: pointer;
 }
